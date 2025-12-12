@@ -1,13 +1,12 @@
 # Analysis Code
 
-This repository contains the code used for data analysis in the manuscript
-currently under review.
+This repository contains the code for simulating Mollow spectra with classical stochastic differential equations.
+Additionally it contains code for couple classical stochastic differential equations for an optically driven two-level system to a 1D FDTD solver with first-order Mur boundary conditions
 
 ## Requirements
-- Specify language and version
-- List main dependencies
+- Matlab (Version 2024b was used)
 
 ## Usage
-Brief description of how the code is executed.
-
+demomollow01.m   change parameters at begining of code, output: Mollow spectra obtained from quantum regression theorem, green's propagator, stochastic approach.
+demofdtd01.m change parameters at begingin of code, output: Mollow spectrum involving FDTD propagated classical electric fields in comprison to unpropagated Mollow spectra from stcohastic approach
 Add README
