@@ -7,6 +7,10 @@ In addition, it includes code that couples classical stochastic differential equ
 - Matlab (Version 2024b was used)
 
 ## Usage
+Include in Matlab path:
+functions
+classes
+@grid1d
+@fewlevel
 demomollow01.m   change parameters at the top of the code, output: Mollow spectra obtained from quantum regression theorem, green's propagator and stochastic approach for varying detuning or Rabi energy.
 demofdtd01.m     change parameters at the top of the code, output: detuned Mollow spectrum obtained from FDTD propagated classical stochastic electric fields in comprison to unpropagated Mollow spectra from stochastic approach.
-Add README
